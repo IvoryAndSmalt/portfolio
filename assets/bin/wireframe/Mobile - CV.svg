@@ -1,0 +1,207 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 375 1187">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-Mobile_-_CV);
+      }
+
+      .cls-2 {
+        fill: #5665c8;
+      }
+
+      .cls-3, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: #707070;
+      }
+
+      .cls-4, .cls-5 {
+        font-size: 20px;
+      }
+
+      .cls-14, .cls-4, .cls-5, .cls-6 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-6 {
+        font-size: 26px;
+      }
+
+      .cls-7, .cls-8 {
+        font-size: 16px;
+      }
+
+      .cls-7 {
+        font-family: SegoeUI-LightItalic, Segoe UI;
+        font-weight: 300;
+        font-style: italic;
+      }
+
+      .cls-8, .cls-9 {
+        font-family: SegoeUI-Semibold, Segoe UI;
+        font-weight: 600;
+      }
+
+      .cls-9 {
+        font-size: 30px;
+      }
+
+      .cls-10 {
+        fill: #f0f0f0;
+      }
+
+      .cls-11 {
+        fill: #d80027;
+      }
+
+      .cls-12 {
+        fill: #0052b4;
+      }
+
+      .cls-13 {
+        fill: #f88;
+      }
+
+      .cls-14 {
+        fill: #d4d4d4;
+        font-size: 18px;
+      }
+
+      .cls-15 {
+        fill: #001736;
+      }
+    </style>
+    <clipPath id="clip-Mobile_-_CV">
+      <rect width="375" height="1187"/>
+    </clipPath>
+  </defs>
+  <g id="Mobile_-_CV" data-name="Mobile - CV" class="cls-1">
+    <rect class="cls-15" width="375" height="1187"/>
+    <rect id="Rectangle_1" data-name="Rectangle 1" class="cls-2" width="375" height="53"/>
+    <rect id="Rectangle_4" data-name="Rectangle 4" class="cls-2" width="375" height="64" transform="translate(0 1123)"/>
+    <g id="Groupe_1" data-name="Groupe 1" transform="translate(20 5)">
+      <circle id="Ellipse_1" data-name="Ellipse 1" class="cls-3" cx="17.5" cy="17.5" r="17.5" transform="translate(10 4)"/>
+      <text id="L" class="cls-4" transform="translate(23 28)"><tspan x="0" y="0">L</tspan></text>
+    </g>
+    <text id="CV" class="cls-5" transform="translate(94 11)"><tspan x="74.598" y="22">CV</tspan></text>
+    <text id="Contactez-moi" class="cls-6" transform="translate(188 842)"><tspan x="-84.291" y="0">Contactez-moi</tspan></text>
+    <text id="R_2018_-_Lucas_van_den_Berg" data-name="R 2018 - Lucas van den Berg" class="cls-7" transform="translate(8 1097)"><tspan x="0" y="17">R 2018 - Lucas van den Berg</tspan></text>
+    <g id="Groupe_4" data-name="Groupe 4">
+      <g id="web-page-home" transform="translate(26 1105.647)">
+        <g id="Groupe_3" data-name="Groupe 3" transform="translate(0 26.353)">
+          <path id="Tracé_1" data-name="Tracé 1" class="cls-3" d="M.979,41.409H3.289v9.237a.993.993,0,0,0,.99.99h6.763a.993.993,0,0,0,.99-.99V43.883h4.124v6.763a.993.993,0,0,0,.99.99h6.433a.993.993,0,0,0,.99-.99V41.409h2.8a.986.986,0,0,0,.693-1.682l-12.9-13.08a.986.986,0,0,0-1.386-.016L.3,39.71A.99.99,0,0,0,.072,40.8.965.965,0,0,0,.979,41.409ZM14.439,28.741,24.995,39.429H23.576a.993.993,0,0,0-.99.99v9.237H18.133V42.893a.993.993,0,0,0-.99-.99h-6.1a.993.993,0,0,0-.99.99v6.763H5.268V40.419a.993.993,0,0,0-.99-.99H3.421Z" transform="translate(0 -26.353)"/>
+        </g>
+      </g>
+      <text id="Home" class="cls-8" transform="translate(18 1172)"><tspan x="0" y="0">Home</tspan></text>
+    </g>
+    <text id="Projets" class="cls-8" transform="translate(222 1172)"><tspan x="0" y="0">Projets</tspan></text>
+    <g id="Groupe_5" data-name="Groupe 5" transform="translate(99)">
+      <text id="CV-2" data-name="CV" class="cls-8" transform="translate(30 1172)"><tspan x="0" y="0">CV</tspan></text>
+    </g>
+    <g id="Groupe_7" data-name="Groupe 7" transform="translate(297)">
+      <text id="Contact" class="cls-8" transform="translate(12 1172)"><tspan x="0" y="0">Contact</tspan></text>
+      <text id="_" data-name="@" class="cls-9" transform="translate(26 1123)"><tspan x="0" y="32">@</tspan></text>
+    </g>
+    <g id="resume" transform="translate(128.993 1132)">
+      <g id="Groupe_9" data-name="Groupe 9" transform="translate(0.007)">
+        <g id="Groupe_8" data-name="Groupe 8">
+          <path id="Tracé_2" data-name="Tracé 2" class="cls-3" d="M21.03,7.554a.508.508,0,0,0,.508-.508V1.523A1.525,1.525,0,0,0,20.015,0H1.53A1.525,1.525,0,0,0,.007,1.523V24.477A1.525,1.525,0,0,0,1.53,26H20.015a1.525,1.525,0,0,0,1.523-1.523V20.735a.508.508,0,0,0-1.016,0v3.741a.508.508,0,0,1-.508.508H1.53a.508.508,0,0,1-.508-.508V1.523a.508.508,0,0,1,.508-.508H20.015a.508.508,0,0,1,.508.508V7.046A.508.508,0,0,0,21.03,7.554Z" transform="translate(-0.007)"/>
+        </g>
+      </g>
+      <g id="Groupe_11" data-name="Groupe 11" transform="translate(6.101 2.742)">
+        <g id="Groupe_10" data-name="Groupe 10">
+          <path id="Tracé_3" data-name="Tracé 3" class="cls-3" d="M124.679,54a4.67,4.67,0,0,0-3.205,8.068.5.5,0,0,0,.055.051,4.663,4.663,0,0,0,6.3,0,.508.508,0,0,0,.055-.051A4.67,4.67,0,0,0,124.679,54Zm0,8.328a3.637,3.637,0,0,1-2.209-.745,2.539,2.539,0,0,1,4.417,0A3.637,3.637,0,0,1,124.679,62.328Zm-.812-3.859v-.33a.813.813,0,0,1,1.625,0v.33a.813.813,0,0,1-1.625,0Zm3.755,2.371a3.523,3.523,0,0,0-1.5-1.254,1.819,1.819,0,0,0,.382-1.116v-.33a1.828,1.828,0,1,0-3.656,0v.33a1.819,1.819,0,0,0,.382,1.116,3.523,3.523,0,0,0-1.5,1.254,3.656,3.656,0,1,1,5.885,0Z" transform="translate(-120.007 -54)"/>
+        </g>
+      </g>
+      <g id="Groupe_13" data-name="Groupe 13" transform="translate(10.265 22.242)">
+        <g id="Groupe_12" data-name="Groupe 12">
+          <path id="Tracé_4" data-name="Tracé 4" class="cls-3" d="M205.257,438h-2.742a.508.508,0,0,0,0,1.016h2.742a.508.508,0,1,0,0-1.016Z" transform="translate(-202.007 -438)"/>
+        </g>
+      </g>
+      <g id="Groupe_15" data-name="Groupe 15" transform="translate(5.796 19.398)">
+        <g id="Groupe_14" data-name="Groupe 14">
+          <path id="Tracé_5" data-name="Tracé 5" class="cls-3" d="M121.726,382h-7.211a.508.508,0,0,0,0,1.016h7.211a.508.508,0,0,0,0-1.016Z" transform="translate(-114.007 -382)"/>
+        </g>
+      </g>
+      <g id="Groupe_17" data-name="Groupe 17" transform="translate(5.796 16.555)">
+        <g id="Groupe_16" data-name="Groupe 16">
+          <path id="Tracé_6" data-name="Tracé 6" class="cls-3" d="M121.726,326h-7.211a.508.508,0,0,0,0,1.016h7.211a.508.508,0,1,0,0-1.016Z" transform="translate(-114.007 -326)"/>
+        </g>
+      </g>
+      <g id="Groupe_19" data-name="Groupe 19" transform="translate(3.627 13.711)">
+        <g id="Groupe_18" data-name="Groupe 18">
+          <path id="Tracé_7" data-name="Tracé 7" class="cls-3" d="M72.154,270.149a.507.507,0,1,0,.149.359A.512.512,0,0,0,72.154,270.149Z" transform="translate(-71.287 -270)"/>
+        </g>
+      </g>
+      <g id="Groupe_21" data-name="Groupe 21" transform="translate(3.627 16.555)">
+        <g id="Groupe_20" data-name="Groupe 20">
+          <path id="Tracé_8" data-name="Tracé 8" class="cls-3" d="M72.154,326.149a.507.507,0,1,0,.149.359A.513.513,0,0,0,72.154,326.149Z" transform="translate(-71.287 -326)"/>
+        </g>
+      </g>
+      <g id="Groupe_23" data-name="Groupe 23" transform="translate(3.627 19.398)">
+        <g id="Groupe_22" data-name="Groupe 22">
+          <path id="Tracé_9" data-name="Tracé 9" class="cls-3" d="M72.154,382.149a.507.507,0,1,0,.149.359A.513.513,0,0,0,72.154,382.149Z" transform="translate(-71.287 -382)"/>
+        </g>
+      </g>
+      <g id="Groupe_25" data-name="Groupe 25" transform="translate(5.796 13.711)">
+        <g id="Groupe_24" data-name="Groupe 24">
+          <path id="Tracé_10" data-name="Tracé 10" class="cls-3" d="M121.726,270h-7.211a.508.508,0,0,0,0,1.016h7.211a.508.508,0,0,0,0-1.016Z" transform="translate(-114.007 -270)"/>
+        </g>
+      </g>
+      <g id="Groupe_27" data-name="Groupe 27" transform="translate(15.119 6.331)">
+        <g id="Groupe_26" data-name="Groupe 26">
+          <path id="Tracé_11" data-name="Tracé 11" class="cls-3" d="M307.411,124.962a2.133,2.133,0,0,0-2.914.781l-6.39,11.068a.509.509,0,0,0-.065.2l-.45,4.029a.508.508,0,0,0,.806.465l3.264-2.4a.508.508,0,0,0,.139-.155l6.39-11.068A2.135,2.135,0,0,0,307.411,124.962ZM298.73,140l.235-2.1,1.47.849Zm2.445-2-1.935-1.117L304.369,128l1.935,1.117Zm6.136-10.629-.5.867-1.935-1.117.5-.867a1.117,1.117,0,0,1,1.935,1.117Z" transform="translate(-297.589 -124.675)"/>
+        </g>
+      </g>
+    </g>
+    <g id="folder" transform="translate(234 1132.35)">
+      <path id="Tracé_12" data-name="Tracé 12" class="cls-3" d="M13.9,2.993,11.763,0h-9.2V1.71H1.283V3.42H0V25.65H25.65V2.993ZM.855,24.8V4.275h7.9l2.138,2.993H10.9l2,2.8a.428.428,0,0,0,.348.179v.013H24.8V24.8ZM24.8,9.405H13.482l-1.53-2.138H24.8Zm0-2.993H11.339L9.325,3.6h0L9.2,3.42H2.138V2.565h7.9l2.138,2.993H24.8ZM12.618,4.7,10.48,1.71H3.42V.855h7.9L13.46,3.848H24.8V4.7Z"/>
+      <path id="Tracé_13" data-name="Tracé 13" class="cls-3" d="M27,43.55H38.97V35H27Zm.855-7.7h10.26V42.7H27.855Z" transform="translate(-15.457 -20.037)"/>
+      <rect id="Rectangle_5" data-name="Rectangle 5" class="cls-3" width="4.275" height="0.855" transform="translate(14.108 17.1)"/>
+      <rect id="Rectangle_6" data-name="Rectangle 6" class="cls-3" width="6.84" height="0.855" transform="translate(14.108 18.81)"/>
+      <rect id="Rectangle_7" data-name="Rectangle 7" class="cls-3" width="6.84" height="0.855" transform="translate(14.108 20.52)"/>
+    </g>
+    <g id="france" transform="translate(282 5.301)">
+      <circle id="Ellipse_2" data-name="Ellipse 2" class="cls-10" cx="18.35" cy="18.35" r="18.35"/>
+      <path id="Tracé_14" data-name="Tracé 14" class="cls-11" d="M357.01,33.131a18.356,18.356,0,0,0-11.967-17.208V50.34A18.356,18.356,0,0,0,357.01,33.131Z" transform="translate(-320.311 -14.782)"/>
+      <path id="Tracé_15" data-name="Tracé 15" class="cls-12" d="M0,33.131A18.356,18.356,0,0,0,11.967,50.34V15.923A18.356,18.356,0,0,0,0,33.131Z" transform="translate(0 -14.782)"/>
+    </g>
+    <g id="united-kingdom" transform="translate(329 5.301)">
+      <circle id="Ellipse_3" data-name="Ellipse 3" class="cls-10" cx="18.35" cy="18.35" r="18.35"/>
+      <g id="Groupe_28" data-name="Groupe 28" transform="translate(0.632 0.632)">
+        <path id="Tracé_16" data-name="Tracé 16" class="cls-12" d="M11.98,100.142a18.283,18.283,0,0,0-3.161,6.385h9.546Z" transform="translate(-8.819 -93.596)"/>
+        <path id="Tracé_17" data-name="Tracé 17" class="cls-12" d="M379.551,106.528a18.285,18.285,0,0,0-3.161-6.385l-6.385,6.385Z" transform="translate(-344.116 -93.597)"/>
+        <path id="Tracé_18" data-name="Tracé 18" class="cls-12" d="M8.819,322.784a18.285,18.285,0,0,0,3.161,6.385l6.385-6.385Z" transform="translate(-8.819 -300.279)"/>
+        <path id="Tracé_19" data-name="Tracé 19" class="cls-12" d="M329.167,11.98a18.284,18.284,0,0,0-6.385-3.161v9.546Z" transform="translate(-300.278 -8.819)"/>
+        <path id="Tracé_20" data-name="Tracé 20" class="cls-12" d="M100.142,376.39a18.284,18.284,0,0,0,6.385,3.161v-9.546Z" transform="translate(-93.596 -344.116)"/>
+        <path id="Tracé_21" data-name="Tracé 21" class="cls-12" d="M106.527,8.819a18.285,18.285,0,0,0-6.385,3.161l6.385,6.385Z" transform="translate(-93.596 -8.819)"/>
+        <path id="Tracé_22" data-name="Tracé 22" class="cls-12" d="M322.783,379.551a18.285,18.285,0,0,0,6.385-3.161l-6.385-6.385Z" transform="translate(-300.279 -344.116)"/>
+        <path id="Tracé_23" data-name="Tracé 23" class="cls-12" d="M370.005,322.784l6.385,6.385a18.284,18.284,0,0,0,3.161-6.385Z" transform="translate(-344.116 -300.279)"/>
+      </g>
+      <g id="Groupe_29" data-name="Groupe 29">
+        <path id="Tracé_24" data-name="Tracé 24" class="cls-11" d="M36.544,15.956h-15.8V.155a18.518,18.518,0,0,0-4.787,0v15.8H.155a18.518,18.518,0,0,0,0,4.787h15.8v15.8a18.518,18.518,0,0,0,4.787,0v-15.8h15.8a18.518,18.518,0,0,0,0-4.787Z"/>
+        <path id="Tracé_25" data-name="Tracé 25" class="cls-11" d="M322.783,322.783h0l8.188,8.188q.565-.565,1.079-1.178l-7.01-7.01h-2.257Z" transform="translate(-299.646 -299.646)"/>
+        <path id="Tracé_26" data-name="Tracé 26" class="cls-11" d="M83.168,322.784h0l-8.188,8.188q.565.565,1.178,1.079l7.01-7.01v-2.256Z" transform="translate(-69.606 -299.647)"/>
+        <path id="Tracé_27" data-name="Tracé 27" class="cls-11" d="M69.2,83.168h0L61.012,74.98q-.565.565-1.079,1.178l7.01,7.01H69.2Z" transform="translate(-55.637 -69.606)"/>
+        <path id="Tracé_28" data-name="Tracé 28" class="cls-11" d="M322.783,69.2h0l8.188-8.188q-.565-.565-1.178-1.079l-7.01,7.01Z" transform="translate(-299.646 -55.638)"/>
+      </g>
+    </g>
+    <rect id="Rectangle_8" data-name="Rectangle 8" class="cls-3" width="161" height="38" rx="8" transform="translate(11 858)"/>
+    <rect id="Rectangle_11" data-name="Rectangle 11" class="cls-13" width="354" height="38" rx="8" transform="translate(11 1023)"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" class="cls-3" width="354" height="108" rx="8" transform="translate(11 907)"/>
+    <rect id="Rectangle_9" data-name="Rectangle 9" class="cls-3" width="162" height="38" rx="8" transform="translate(203 858)"/>
+    <text id="Nom_complet" data-name="Nom complet" class="cls-14" transform="translate(74 884)"><tspan x="-54.633" y="0">Nom complet</tspan></text>
+    <text id="Message" class="cls-14" transform="translate(54 930)"><tspan x="-35.011" y="0">Message</tspan></text>
+    <text id="Email" class="cls-14" transform="translate(231 884)"><tspan x="-21.243" y="0">Email</tspan></text>
+    <text id="ENVOYER" class="cls-6" transform="translate(188 1051)"><tspan x="-55.079" y="0">ENVOYER</tspan></text>
+    <g id="Groupe_36" data-name="Groupe 36" transform="translate(0 31)">
+      <rect id="Rectangle_14" data-name="Rectangle 14" class="cls-13" width="354" height="38" rx="8" transform="translate(11 144)"/>
+      <text id="Télécharger_mon_CV_PDF_" data-name="Télécharger mon CV (PDF)" class="cls-6" transform="translate(188 172)"><tspan x="-149.322" y="0">Télécharger mon CV (PDF)</tspan></text>
+    </g>
+    <text id="LUCAS" class="cls-6" transform="translate(59 71)"><tspan x="0.863" y="28">LUCAS</tspan></text>
+    <text id="VAN_DEN_BERG" data-name="VAN DEN BERG" class="cls-6" transform="translate(244 97)"><tspan x="-88.499" y="0">VAN DEN BERG</tspan></text>
+    <text id="Développeur_Web" data-name="Développeur Web" class="cls-6" transform="translate(188 146)"><tspan x="-103.302" y="0">Développeur Web</tspan></text>
+  </g>
+</svg>
