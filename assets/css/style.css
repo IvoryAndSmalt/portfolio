@@ -249,7 +249,9 @@ a:visited{
 }
 
 @media (min-width: 576px) {
-	
+	#footer{
+		display: none;
+	}
 }
 
 @media (min-width: 768px) {

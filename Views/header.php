@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,900" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="bg-smalt">
+<body id="body" class="bg-smalt">
 
 <header id="header" class="bg-ivory">
     <ul class="bannerul">

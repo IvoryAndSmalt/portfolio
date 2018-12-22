@@ -5,86 +5,66 @@ var swEnglish = document.getElementById('switchEnglish');
 var FrenchItems = document.getElementsByClassName('french');
 var EnglishItems = document.getElementsByClassName('english');
 
-function toEng(){
+function switchLang(fromLang, toLang){
     for (let i = 0; i < FrenchItems.length; i++) {
-        FrenchItems[i].style.display = "none";
-        EnglishItems[i].style.display = "block";
-    }
-}
-function toFrench(){
-    for (let i = 0; i < FrenchItems.length; i++) {
-        FrenchItems[i].style.display = "block";
-        EnglishItems[i].style.display = "none";
+        fromLang[i].style.display = "none";
+        toLang[i].style.display = "block";
     }
 }
 
-toFrench();
-swFrench.addEventListener("click", toFrench);
-swEnglish.addEventListener("click", toEng);
+switchLang(EnglishItems, FrenchItems);
+swFrench.addEventListener('click', function(){
+    switchLang(EnglishItems, FrenchItems);
+});
+swEnglish.addEventListener('click', function(){
+    switchLang(FrenchItems, EnglishItems);
+});
+
+
 
 //SWITCH PAGES
-var lihome = document.getElementById('lihome');
-var licv = document.getElementById('licv');
-var liprojects = document.getElementById('liprojects');
-var licontact = document.getElementById('licontact');
-var homew = document.getElementById('homew');
-var cvw = document.getElementById('cvw');
-var projectsw = document.getElementById('projectsw');
-var handlew = document.getElementById('handlew');
 var footerli = document.getElementsByClassName('footerli');
 var iconsm = document.getElementsByClassName('iconsm');
 var iconsw = document.getElementsByClassName('iconsw');
 
+var lihome = document.getElementById('lihome');
+var licv = document.getElementById('licv');
+var liprojects = document.getElementById('liprojects');
+var licontact = document.getElementById('licontact');
+
+function darken(page, j){
+    for (let i = 0; i < footerli.length; i++) {
+        footerli[i].style.color = "#001a4d"; 
+        footerli[i].style.background = "#fffff0";
+        iconsm[i].style.display = "block";
+        iconsw[i].style.display = "none";
+    }
+    page.style.color = "#fffff0";
+    page.style.background = "#001a4d";
+    iconsm[j].style.display = "none";
+    iconsw[j].style.display = "block";
+}
+
+darken(lihome, 0);
+
 lihome.addEventListener('click', function(){
-    for (let i = 0; i < footerli.length; i++) {
-        footerli[i].style.color = "#001a4d"; 
-        footerli[i].style.background = "#fffff0";
-        iconsm[i].style.display = "block";
-        iconsw[i].style.display = "none";
-    }
-    lihome.style.color = "#fffff0";
-    lihome.style.background = "#001a4d";
-    iconsm[0].style.display = "none";
-    iconsw[0].style.display = "block";
+    darken(lihome, 0);
 });
-
 licv.addEventListener('click', function(){
-    for (let i = 0; i < footerli.length; i++) {
-        footerli[i].style.color = "#001a4d"; 
-        footerli[i].style.background = "#fffff0";
-        iconsm[i].style.display = "block";
-        iconsw[i].style.display = "none";
-    }
-    licv.style.color = "#fffff0";
-    licv.style.background = "#001a4d";
-    iconsm[1].style.display = "none";
-    iconsw[1].style.display = "block";
+    darken(licv, 1);
 });
-
 liprojects.addEventListener('click', function(){
-    for (let i = 0; i < footerli.length; i++) {
-        footerli[i].style.color = "#001a4d"; 
-        footerli[i].style.background = "#fffff0";
-        iconsm[i].style.display = "block";
-        iconsw[i].style.display = "none";
-    }
-    liprojects.style.color = "#fffff0";
-    liprojects.style.background = "#001a4d";
-    iconsm[2].style.display = "none";
-    iconsw[2].style.display = "block";
+    darken(liprojects, 2);
 });
-
 licontact.addEventListener('click', function(){
-    for (let i = 0; i < footerli.length; i++) {
-        footerli[i].style.color = "#001a4d"; 
-        footerli[i].style.background = "#fffff0";
-        iconsm[i].style.display = "block";
-        iconsw[i].style.display = "none";
-    }
-    licontact.style.color = "#fffff0";
-    licontact.style.background = "#001a4d";
-    iconsm[3].style.display = "none";
-    iconsw[3].style.display = "block";
+    darken(licontact, 3);
 });
 
 //smalt #001a4d; ivry: #fffff0
+
+document.addEventListener('scroll', function(){
+    var body = document.getElementById('body');
+    console.log(body.scrollTop);
+    console.log(body.scrollHeight);
+    console.log(body.clientHeight);
+});
