@@ -20,8 +20,6 @@ swEnglish.addEventListener('click', function(){
     switchLang(FrenchItems, EnglishItems);
 });
 
-
-
 //SWITCH PAGES
 var footerli = document.getElementsByClassName('footerli');
 var iconsm = document.getElementsByClassName('iconsm');
@@ -32,6 +30,7 @@ var licv = document.getElementById('licv');
 var liprojects = document.getElementById('liprojects');
 var licontact = document.getElementById('licontact');
 
+//Function inverts light and dark background and text color
 function darken(page, j){
     for (let i = 0; i < footerli.length; i++) {
         footerli[i].style.color = "#001a4d"; 
@@ -61,10 +60,3 @@ licontact.addEventListener('click', function(){
 });
 
 //smalt #001a4d; ivry: #fffff0
-
-document.addEventListener('scroll', function(){
-    var body = document.getElementById('body');
-    console.log(body.scrollTop);
-    console.log(body.scrollHeight);
-    console.log(body.clientHeight);
-});

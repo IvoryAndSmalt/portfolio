@@ -53,6 +53,9 @@ input, textarea{
 /***************************************/
 /***************END OF RESET************/
 /***************************************/
+
+/*THIS CSS IS A MESS. SERIOUSLY, PLEASE DISPERSE, NOTHING TO SEE HERE.*/
+
 .bg-ivory{
 	background: #fffff0;
 	color: #001a4d;
@@ -69,17 +72,20 @@ a:visited{
 
 .thin{
 	font-family: "Montserrat", sans-serif;
-	font-weight: 200;
+	font-weight: 300;
+	font-size: 16px;
 }
 
 .regular{
 	font-family: "Montserrat", sans-serif;
-	font-weight: 400;
+	font-weight: 500;
+	font-size: 16px;
 }
 
 .thick{
 	font-family: "Montserrat", sans-serif;
 	font-weight: 900;
+	font-size: 16px;
 }
 
 .lgmenus{
@@ -137,8 +143,41 @@ a:visited{
 /****************MAIN***************/
 
 .main{
-	margin-top: 50px;
+	margin-top: 60px;
 	height: 1000px;
+}
+
+.pfp{
+	margin: 10px 0;
+}
+
+#mypfp{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	height: auto;
+}
+
+.profiletitle h1{
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 1.5em;
+}
+
+.profiletext p{
+	width: 90%;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.profiletext .welcometitle{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+br{
+	margin-bottom: 5px;
 }
 
 /**************CONTACT FORM*********/
@@ -155,6 +194,9 @@ a:visited{
 
 #formtitle{
 	margin-bottom: 2%;
+}
+
+#formh2{
 	font-size: 1.5em;
 }
 
@@ -164,6 +206,7 @@ a:visited{
 	border: none;
 	border-radius: 5px;
 	padding: 5px;
+	font-size: 0.8em;
 }
 
 #inptypetext{
@@ -177,13 +220,11 @@ a:visited{
 	margin: 0;
 }
 
-#message{
-	width: 100%;
-}
-
 #mymessage{
 	width: 100%;
+	min-height: 100px;
 	resize: none;
+	font-size: 0.8em;
 }
 
 #submit input{
@@ -255,6 +296,60 @@ a:visited{
 }
 
 @media (min-width: 768px) {
+	#contactform{
+		margin-bottom: 60px;
+	}
+	
+	#forminner{
+		width: 90%;
+		max-width: 600px;
+		text-align: center;
+		margin: 20px auto;
+	}
+	
+	#formtitle{
+		margin-bottom: 20px;
+	}
+
+	#formh2{
+		font-size: 1.5em;
+	}
+	
+	#forminner input, textarea{
+		margin: 0 auto;
+		margin-bottom: 20px;
+		border: none;
+		border-radius: 5px;
+		padding: 5px;
+	}
+	
+	#inptypetext{
+		display: flex;
+		margin-bottom: 10px;
+		justify-content: space-between;
+	}
+	
+	#inptypetext input{
+		width: 49%;
+		margin: 0;
+	}
+
+	#mymessage{
+		width: 100%;
+		resize: none;
+	}
+	
+	#submit input{
+		background: #d31f43;
+		width: 100%;
+		text-align: center;
+		font-size: 1.2em;
+	}
+	
+	#copyright{
+		font-size: 0.8em;
+	}
+	
 
 }
 
