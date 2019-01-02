@@ -3,6 +3,19 @@
    License: none (public domain)
 */
 
+@font-face {
+	font-family: 'MontserratB';
+	src: url(fonts/Montserrat-Black.ttf);
+}
+@font-face {
+	font-family: 'MontserratM';
+	src: url(fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+	font-family: 'MontserratL';
+	src: url(fonts/Montserrat-Light.ttf);
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,6 +60,11 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	text-decoration: none;
+	outline:none
+}
+
 input, textarea{
 	box-sizing: border-box;
 }
@@ -71,25 +89,21 @@ a:visited{
 }
 
 .thin{
-	font-family: "Montserrat", sans-serif;
-	font-weight: 300;
+	font-family: "MontserratL", sans-serif;
 	font-size: 16px;
+	line-height: 1.2;
 }
 
 .regular{
-	font-family: "Montserrat", sans-serif;
-	font-weight: 500;
+	font-family: "MontserratM", sans-serif;
 	font-size: 16px;
+	line-height: 1.2;
 }
 
 .thick{
-	font-family: "Montserrat", sans-serif;
-	font-weight: 900;
+	font-family: "MontserratB", sans-serif;
 	font-size: 16px;
-}
-
-.lgmenus{
-	display: none;
+	line-height: 1.2;
 }
 
 .french{
@@ -100,6 +114,10 @@ a:visited{
 	display: none;
 }
 
+br{
+	margin-bottom: 5px;
+}
+
 /***************HEADER****************/
 #header{
 	position: fixed;
@@ -108,11 +126,20 @@ a:visited{
 	top: 0;
 }
 
+#logo{
+	height: 40px;
+	width: 40px;
+}
+
 .flags{
 	display: flex;
     height: 100%;
     justify-content: center;
     align-items: center;
+}
+
+.flags:hover{
+	cursor:pointer;
 }
 
 .flag{
@@ -133,6 +160,10 @@ a:visited{
 	flex:1;
 }
 
+.headerli p *:hover{
+	cursor: pointer;
+}
+
 .headerli p{
 	display: flex;
 	height: 100%;
@@ -143,9 +174,11 @@ a:visited{
 /****************MAIN***************/
 
 .main{
-	margin-top: 60px;
-	height: 1000px;
+	padding-top: 60px;
+	min-height: 1100px;
 }
+
+/*PROFILE*/
 
 .pfp{
 	margin: 10px 0;
@@ -165,6 +198,30 @@ a:visited{
 	font-size: 1.5em;
 }
 
+.widgets{
+	width: 80%;
+	margin: 0 auto 10px auto;
+	display: flex;
+	justify-content: space-around;
+}
+
+.widgets img{
+	width: 40px;
+	height: 40px;
+}
+
+.widgetlink{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+}
+
+.widgetlink *{
+	display: block;
+	width: 100%;
+	margin: 0 auto 10px auto;
+}
+
 .profiletext p{
 	width: 90%;
 	text-align: left;
@@ -176,8 +233,22 @@ a:visited{
 	margin-bottom: 5px;
 }
 
-br{
-	margin-bottom: 5px;
+.profiletext .prestxt{
+	margin-bottom: 20px;
+}
+
+.acslogo img{
+	width: 80%;
+	height: auto;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.acstitle h2{
+	text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.5em;
 }
 
 /**************CONTACT FORM*********/
@@ -296,6 +367,11 @@ br{
 }
 
 @media (min-width: 768px) {
+
+	#mypfp{
+		width: 35%;
+	}
+
 	#contactform{
 		margin-bottom: 60px;
 	}
@@ -349,20 +425,15 @@ br{
 	#copyright{
 		font-size: 0.8em;
 	}
-	
-
 }
-
 
 @media (min-width: 992px) {
 
 }
 
-
 @media (min-width: 1200px) {
 
 }
 
-/* *{
-	background: rgba(0,0,0,0.1);
-} */
+
+/* //smalt #001a4d; ivry: #fffff0 */
