@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?=$title?> - Lucas van den Berg</title>
     <link rel="manifest" href="manifest.json">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,900" rel="stylesheet"> 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
 </head>
 <body id="body" class="bg-smalt">
 
@@ -18,35 +18,45 @@
         <ul class="bannerul">
             <li class="headerli thin">
                 <p>
-                    <img src="assets/img/logo.svg" alt="Logo">
+                    <a href="#main"><img id="logo" src="assets/img/logo.svg" alt="Logo"></a>
                 </p>
             </li>
-            <li class="headerli thin lgmenus">
+            <li class="headerli thin lgmenus" id="titleHome">
                 <p>
-                    <span>CV</span>
+                    <a href="#main">
+                        <span class="french">Accueil</span>
+                        <span class="english">Home</span>
+                    </a>
                 </p>
             </li>
-            <li class="headerli thin lgmenus french">
+            <li class="headerli thin lgmenus" id="titleCV">
                 <p>
-                    <span class="french">Projets</span>
+                    <a href="#main">
+                        <span>CV</span>
+                    </a>
                 </p>
             </li>
-            <li class="headerli thin lgmenus english">
+            <li class="headerli thin lgmenus" id="titleProjects">
                 <p>
-                    <span class="english">Projects</span>
+                    <a href="#main">
+                        <span class="french">Projets</span>
+                        <span class="english">Projects</span>
+                    </a>
                 </p>
             </li>
-            <li class="headerli thin lgmenus">
-                <p>
-                    <span>Contact</span>
-                </p>
+            <li class="headerli thin lgmenus" id="titleContact">
+                <a href="#contactform">
+                    <p>
+                        <span>Contact</span>
+                    </p>
+                </a>
             </li>
             <li class="headerli thin">
                 <ul class="flags">
-                    <li class="flag english" id="switchFrench">
+                    <li class="flag english" id="switchFrench" title="switch to French">
                         <img src="assets/img/france.svg" alt="Drapeau Français">
                     </li>
-                    <li class="flag french" id="switchEnglish">
+                    <li class="flag french" id="switchEnglish" title="passer à l'anglais">
                         <img src="assets/img/united-kingdom.svg" alt="Drapeau Anglais">
                     </li>
                 </ul>

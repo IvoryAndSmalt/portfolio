@@ -121,7 +121,7 @@ titleHome.addEventListener('click', function(){
 //WAYS TO GET TO CV
 var inlineCV = document.getElementById('myCV');
 var inlineProjects = document.getElementById('myProjects');
-var inlineContact = document.getElementById('toContact');
+var inlineContact = document.getElementById('myContact');
 
 licv.addEventListener('click', function(){
     switchPage(CV);

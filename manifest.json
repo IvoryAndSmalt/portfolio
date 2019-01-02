@@ -7,16 +7,12 @@
     "description": "Portfolio de Lucas van den Berg",
     "icons": [
         {
-          "src": "assets/img/pfp48.png",
+          "src": "assets/img/pfp.svg",
           "sizes": "48x48"
         },
         {
           "src": "assets/img/pfp256.png",
-          "sizes": "72x72 96x96 128x128 256x256"
-        },
-        {
-          "src": "assets/img/pfp512.png",
-          "sizes": "512x512"
+          "sizes": "72x72 96x96 128x128 256x256 512x512"
         }
       ]
 }

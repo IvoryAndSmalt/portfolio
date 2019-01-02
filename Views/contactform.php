@@ -1,12 +1,14 @@
 <!-- CONTACT FORM -->
-<form action="" method="POST" id="contactform" class="bg-smalt">
+<form method="POST" id="contactform" class="bg-smalt">
     <div id="forminner">
         <div id="formtitle">
-            <h2 id="formh2" class="thick french">
-                Contactez-moi
-            </h2>
-            <h2 id="formh2" class="thick english">
-                Contact me
+            <h2 id="formh2" class="thick">
+                <span class="french">
+                    Contactez-moi
+                </span>
+                <span class="english">
+                    Contact me
+                </span>
             </h2>
         </div>
         <div id="forminputs">
@@ -33,7 +35,7 @@
 
         <!-- copyright -->
     <p id="copyright" class="thin">
-        Copyright 2018 © Lucas van den Berg
+        © Lucas van den Berg 2018
     </p>
 
 </form>
